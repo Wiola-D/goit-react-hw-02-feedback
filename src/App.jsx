@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { FeedbackOptions } from './components/FeedbackOptions';
-import { Notification } from './components/Notifications';
+import { FeedbackOptions } from './components/FeedbackOptions/FeedbackOptions';
+import { Notification } from './components/Notifications/Notifications';
 import { Section } from './components/Section/Section';
-import { Statistic } from './components/Statistics';
+import { Statistic } from './components/Statistics/Statistics';
 
 const INITIAL_STATE = {
   good: 0,
