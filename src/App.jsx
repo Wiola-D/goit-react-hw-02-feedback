@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FeedbackOptions } from './components/FeedbackOptions';
 import { Notification } from './components/Notifications';
-import { Section } from './components/Section';
+import { Section } from './components/Section/Section';
 import { Statistic } from './components/Statistics';
 
 const INITIAL_STATE = {
